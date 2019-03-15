@@ -39,7 +39,7 @@ make update deps
 cd vendor/nim-beacon-chain
 
 # You can now run the test suite:
-nim c -d:release -r tests/all_tests
+nim c -d:release --threads:on -r tests/all_tests
 ```
 
 ## Beacon node simulation
